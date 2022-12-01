@@ -1,0 +1,38 @@
+.custom-table {
+}
+.custom-table .rdt_TableHead {
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee !important;
+}
+.custom-table .rdt_TableHead .rdt_TableCol {
+	font-weight: 600;
+}
+.custom-table .rdt_TableRow {
+	border: 0 !important;
+	font-size: 0.85em;
+}
+.custom-table .rdt_TableHead .rdt_TableHeadRow {
+	border-bottom: 0 !important;
+}
+.custom-table .rdt_TableRow:nth-child(even) {
+	background-color: #f7f7f7;
+}
+.custom-table .rdt_TableCell {
+	padding: 1em;
+}
+
+/* Scroll Bar */
+.custom-table::-webkit-scrollbar {
+	width: 4px;
+	height: 4px;
+}
+.custom-table::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+.custom-table::-webkit-scrollbar-thumb {
+	background: rgb(107, 161, 211);
+	border-radius: 2px;
+}
+.custom-table::-webkit-scrollbar-thumb:hover {
+	background: rgb(76, 119, 195);
+}
